@@ -5,3 +5,5 @@ from sys.objects,
 sys.schemas
 where sys.objects.type='U'
 and sys.objects.schema_id=sys.schemas.schema_id order by sys.schemas.name;
+111111
+bendi1
