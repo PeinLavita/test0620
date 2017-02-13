@@ -1,7 +1,1 @@
-select id,name from sysobjects where xtype='U'and name<>'dtproperties' order by name;
-select sys.objects.name,
-sys.schemas.name
-from sys.objects,
-sys.schemas
-where sys.objects.type='U'
-and sys.objects.schema_id=sys.schemas.schema_id order by sys.schemas.name;
+本地修改
